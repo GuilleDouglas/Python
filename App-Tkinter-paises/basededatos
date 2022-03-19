@@ -1,0 +1,13 @@
+#Base de datos bdEjemploPy tabla countries 
+CREATE TABLE `countries` (
+	`Id` INT(10) NOT NULL AUTO_INCREMENT,
+	`ISO3` VARCHAR(3) NOT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`CountryName` VARCHAR(64) NOT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`Capital` VARCHAR(64) NOT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`CurrencyCode` VARCHAR(3) NOT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	PRIMARY KEY (`Id`) USING BTREE
+)
+COLLATE='utf8mb4_0900_ai_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=31
+;
